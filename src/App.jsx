@@ -1,9 +1,16 @@
 import "./App.css";
+import React from "react";
 import inicial from "./assets/img/inicial.png";
 import quemsomos2 from "./assets/img/quemsomos2.png";
 import fundo3 from "./assets/img/fundo3.png";
 import objetivo from "./assets/img/objetivo.png";
 import proposta from "./assets/img/proposta.png";
+import wireframes from "./assets/img/wireframes.png";
+import rodape from "./assets/img/rodape.png";
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import tela1 from "./assets/img/tela1.png";
+
 
 function App() {
   return (
@@ -109,12 +116,54 @@ function App() {
         >
           <div className="tituloproposta">Proposta</div>
           <div className="textoproposta">
-            <p>A GoDress propõe uma abordagem</p> <p>revolucionária para a organização de</p>
-            <p>roupas, oferecendo um armário virtual</p> <p>inteligente que se adapta às</p>
-            <p>necessidades individuais de cada usuário.</p> <p>Com recursos avançados
-            como sugestões</p> <p>personalizadas, integração meteorológica</p> <p>e lavanderia
-            digital, nossa proposta é</p> <p>revolucionar a maneira como as pessoas</p>
+            <p>A GoDress propõe uma abordagem</p>{" "}
+            <p>revolucionária para a organização de</p>
+            <p>roupas, oferecendo um armário virtual</p>{" "}
+            <p>inteligente que se adapta às</p>
+            <p>necessidades individuais de cada usuário.</p>{" "}
+            <p>Com recursos avançados como sugestões</p>{" "}
+            <p>personalizadas, integração meteorológica</p>{" "}
+            <p>e lavanderia digital, nossa proposta é</p>{" "}
+            <p>revolucionar a maneira como as pessoas</p>
             <p>gerenciam seus guarda-roupas.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="container6">
+        <div
+          style={{
+            backgroundImage: `url(${wireframes})`,
+            height: 1620,
+            width: 1863,
+          }}
+        >
+          <div className="titulowireframes">Wireframes</div>
+          <div className="App">
+     
+    </div>
+
+          <button className="bntregistro">
+              <p>Pré Registro</p>
+            </button>
+
+        </div>
+      </div>
+
+      <div className="container7">
+        <div
+          style={{
+            backgroundImage: `url(${rodape})`,
+            height: 500,
+            width: 1863,
+          }}
+        >
+          <div className="titulorodape">Experimente Agora!</div>
+          <div className="textorodape">
+            <p>Faça parte da revolução na organização de roupas e torne</p> <p>seu
+            processo de seleção de looks mais fácil, eficiente e</p><p> divertido com a
+            GoDress. Cadastre-se agora e comece a </p><p className="linha5">transformar sua maneira de se
+            vestir!</p>
           </div>
         </div>
       </div>

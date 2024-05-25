@@ -160,3 +160,55 @@
     margin-top: 70px;
     margin-left: 1300px;
 }
+
+.container6{
+    display: flex;
+    align-items: center;
+   justify-content: space-around; 
+}
+
+.titulowireframes{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 800px;
+}
+
+.bntregistro{
+    font-size: 27px;
+    border-radius: 24px;
+    padding: 4px 24px;
+    background-color: #B900FF;
+    border-color: aliceblue;
+    margin-top: 1050px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 837px;
+}
+
+.container7{
+    display: flex;
+    align-items: center;
+   justify-content: space-around; 
+}
+
+.textorodape{
+    color: aliceblue;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 600px;
+}
+
+.titulorodape{
+    color: aliceblue;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 700px
+}
+
+.linha5{
+    margin-left: 110px;
+}
