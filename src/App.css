@@ -23,10 +23,9 @@
    font-size: 22px;
    border-radius: 24px;
    padding: 4px 24px;
-   background-color: blueviolet;
+   background: linear-gradient(to right, #FF00E5, #721BC9);
    border-color: transparent;
    margin-top: 50px;
-   color: aliceblue;
    cursor: pointer;
    font-weight: bold;
    margin-left: 50px;
@@ -39,12 +38,29 @@
     border-color: transparent;
     margin-top: 50px;
     background-color: black;
-    color: blueviolet;
     cursor: pointer;
     margin-left: 20px;
     font-weight: bold;
     
  }
+
+.colorido{
+    background: linear-gradient(to right, #DB00FF, #0066FF);
+  color: transparent; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  display: inline-block; 
+  padding: 5px 10px;
+}
+
+.embreve{
+    background: #fff;
+  color: transparent; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  display: inline-block; 
+  padding: 5px 10px;
+}
 
 .container{
     display: flex;

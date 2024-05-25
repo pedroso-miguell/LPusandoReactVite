@@ -12,6 +12,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import tela1 from "./assets/img/tela1.png";
 
 
+
 function App() {
   return (
     <>
@@ -23,11 +24,11 @@ function App() {
           <div className="apresentacao">
             <p className="intro">Seu guarda roupa na palma da mão</p>
             <button className="bnt1">
-              <p>Em breve</p>
+              <p className="embreve">Em Breve</p>
             </button>
 
             <button className="bnt2">
-              <p>Saiba mais</p>
+              <p className="colorido">Saiba mais</p>
             </button>
           </div>
         </div>
