@@ -44,23 +44,25 @@
     
  }
 
-.colorido{
+ .colorido {
     background: linear-gradient(to right, #DB00FF, #0066FF);
-  color: transparent; 
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  display: inline-block; 
-  padding: 5px 10px;
-}
-
-.embreve{
+    color: transparent; 
+    -webkit-background-clip: text; /* Para WebKit (Chrome, Safari) */
+    background-clip: text; /* Para outros navegadores que suportam a propriedade padrão */
+    -webkit-text-fill-color: transparent; /* Para WebKit (Chrome, Safari) */
+    display: inline-block; 
+    padding: 5px 10px;
+  }
+  
+  .embreve {
     background: #fff;
-  color: transparent; 
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  display: inline-block; 
-  padding: 5px 10px;
-}
+    color: transparent; 
+    -webkit-background-clip: text; /* Para WebKit (Chrome, Safari) */
+    background-clip: text; /* Para outros navegadores que suportam a propriedade padrão */
+    -webkit-text-fill-color: transparent; /* Para WebKit (Chrome, Safari) */
+    display: inline-block; 
+    padding: 5px 10px;
+  }
 
 .container{
     display: flex;
@@ -92,26 +94,10 @@
 
 .apresentacao2{
     color: aliceblue;
-    margin-left: 700px;
     margin-top: 200px;
     font-size: 20px;
+    text-align: center;
 
-}
-
-.linha1{
-    margin-left: 10px; 
- }
-
-.linha2{
-    margin-left: 10px; 
- }
-
-.linha3{
-    margin-left: 28px; 
- }
-
-.linha4{
-   margin-left: 110px; 
 }
 
 .container3{
@@ -188,7 +174,7 @@
     font-size: 50px;
     font-weight: bold;
     margin-top: 70px;
-    margin-left: 800px;
+    margin-left: 780px;
 }
 
 .bntregistro{
@@ -197,7 +183,7 @@
     padding: 4px 24px;
     background-color: #B900FF;
     border-color: aliceblue;
-    margin-top: 1050px;
+    margin-top: 100px;
     color: aliceblue;
     cursor: pointer;
     font-weight: bold;
@@ -225,6 +211,36 @@
     margin-left: 700px
 }
 
-.linha5{
-    margin-left: 110px;
-}
+
+
+/* Container do carrossel */
+.carousel-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 200px;
+    overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse os limites */
+  }
+  
+  .carousel-container .carousel .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+  }
+  
+  /* Remove legendas */
+  .carousel .legend {
+    display: none;
+  }
+  
+  /* Garante que as imagens ocupem o espaço inteiro do contêiner */
+  .carousel-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ajusta a imagem para cobrir o contêiner sem distorcer */
+  }
+  
+  
+  
